@@ -13,82 +13,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Netherlands Website</title>
-    <style>
-        /* CSS for styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-
-        header {
-            background-color: #0074d9;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-
-        nav {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-
-        nav a {
-            text-decoration: none;
-            color: #fff;
-            margin: 10px;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #fff;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px;
-        }
-    </style>
+    <title>Netherlands Explorer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to the Netherlands</h1>
+        <nav>
+            <div class="logo">
+                <img src="netherlands-logo.png" alt="Netherlands Explorer Logo">
+                <h1>Netherlands Explorer</h1>
+            </div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#cities">Cities</a></li>
+                <li><a href="#culture">Culture</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#about">About the Netherlands</a>
-        <a href="#cities">Cities</a>
-        <a href="#culture">Culture</a>
-    </nav>
+    <section id="about" class="content">
+        <h2>About the Netherlands</h2>
+        <p>The Netherlands, often referred to as Holland, is a picturesque country known for its stunning landscapes, historic cities, and vibrant culture. Located in Northwestern Europe, the Netherlands is famous for its tulip fields, windmills, and extensive canal systems.</p>
+        <p>Explore the beauty and rich heritage of this enchanting country with Netherlands Explorer.</p>
+    </section>
 
-    <div class="container">
-        <section id="about">
-            <h2>About the Netherlands</h2>
-            <p>The Netherlands is a beautiful country known for its tulip fields, windmills, canals, and much more.</p>
-        </section>
+    <section id="cities" class="content">
+        <h2>Explore Dutch Cities</h2>
+        <div class="city-card">
+            <img src="amsterdam.jpg" alt="Amsterdam">
+            <h3>Amsterdam</h3>
+            <p>Amsterdam is the capital city of the Netherlands and is known for its picturesque canals, historic architecture, and world-class museums.</p>
+        </div>
+        <div class="city-card">
+            <img src="rotterdam.jpg" alt="Rotterdam">
+            <h3>Rotterdam</h3>
+            <p>Rotterdam is a modern and dynamic city famous for its innovative architecture and bustling port.</p>
+        </div>
+        <div class="city-card">
+            <img src="utrecht.jpg" alt="Utrecht">
+            <h3>Utrecht</h3>
+            <p>Utrecht is a charming city with a rich history, featuring beautiful canals and historic landmarks.</p>
+        </div>
+    </section>
 
-        <section id="cities">
-            <h2>Cities</h2>
-            <p>The Netherlands has many charming cities, including Amsterdam, Rotterdam, and Utrecht.</p>
-        </section>
+    <section id="culture" class="content">
+        <h2>Dutch Culture</h2>
+        <p>The Dutch culture is known for its artistic heritage, with famous painters like Rembrandt and Van Gogh hailing from the Netherlands. Dutch cuisine includes delicious dishes like cheese, pancakes, and herring. The country is also famous for its cycling culture, with an extensive network of bike paths.</p>
+    </section>
 
-        <section id="culture">
-            <h2>Culture</h2>
-            <p>The Dutch culture is rich and diverse, with a love for art, music, and delicious cuisine.</p>
-        </section>
-    </div>
+    <section id="gallery" class="content">
+        <h2>Photo Gallery</h2>
+        <div class="image-gallery">
+            <img src="gallery1.jpg" alt="Tulip Fields">
+            <img src="gallery2.jpg" alt="Windmills">
+            <img src="gallery3.jpg" alt="Canals">
+            <img src="gallery4.jpg" alt="Dutch Cheese">
+        </div>
+    </section>
+
+    <section id="contact" class="content">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or would like to learn more about the Netherlands, feel free to contact us:</p>
+        <address>
+            <p>Email: <a href="mailto:info@netherlandsexplorer.com">info@netherlandsexplorer.com</a></p>
+            <p>Phone: +31 (0) 123 456 789</p>
+        </address>
+    </section>
 
     <footer>
-        <p>&copy; 2023 Netherlands Website</p>
+        <p>&copy; 2023 Netherlands Explorer</p>
     </footer>
+</body>
+</html>
 </body>
 </html>
 
